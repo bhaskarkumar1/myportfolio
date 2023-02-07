@@ -75,16 +75,18 @@ function Profile() {
             </span>
           </div>
           <div className="profile-options">
-            <button className="btn primary-btn">
+            <a href="mailto: bhaskarkumar.india@gmail.com"   target="_blank" rel="noreferrer">
+            <button className="btn primary-btn" >
               {""}
               Hire Me{" "}
             </button>
+            </a>
             <a
               href="https://drive.google.com/file/d/1qZez3HvyAMZL_ItJ11Bb-L0HimKOOHkM/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >
-              <button className="btn highlighted-btn"> Get Résumé</button>
+              <button className="btn highlighted-btn" > Get Résumé</button>
             </a>
             
           </div>
